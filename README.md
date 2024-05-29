@@ -1,11 +1,22 @@
+Firefighting resources are based on forest firefighting land vehicles with water tanks, which can have different capacities.
+Ignitions are understood as several fronts of the same forest fire.
+
 Each folder has 10 instances with the data for each problem:
     - 20I_5R -> 20 ignitions and 5 resources;
     - 20I_7R -> 20 ignitions and 7 resources;
     - 20I_10R -> 20 ignitions and 10 resources;
     - 30I_5R -> 30 ignitions and 5 resources;
     - 30I_7R -> 30 ignitions and 7 resources;
-    - 30I_10R -> 30 ignitions and 10 resources;
+    - 30I_10R -> 30 ignitions and 10 resources.
 
+Each file has:
+    - the travel time between the base (fire station) and the ignitions and between ignitions;
+    - the burned area for each ignition and each instant of time;
+    - the required water for each ignition and each instant of time;
+    - the water tank capacities of each resource;
+    - coordinates of each ignition;
+    - ignition location network.
+    
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
